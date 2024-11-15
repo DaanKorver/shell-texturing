@@ -44,6 +44,10 @@ jobs:
           cache: 'pnpm'
       - name: Install dependencies
         run: pnpm install
+      - name: Lygia init
+        run: git submodule init
+      - name: Lygia update
+        run: git submodule update
       - name: Build
         run: pnpm run build
       - name: Setup Pages
