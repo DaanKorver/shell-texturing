@@ -9,8 +9,8 @@ uniform float uShells;
 uniform vec3 uColor;
 
 vec3 black = vec3(0.0);
-float GRID_SIZE = 152.0;
-float thickness = 3.;
+float GRID_SIZE = 512.0;
+float thickness = 50.;
 
 float halfLambert(vec3 normal, vec3 lightDir) {
   float dp = dot(normal, lightDir);

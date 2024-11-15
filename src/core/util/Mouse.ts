@@ -39,7 +39,7 @@ export default class Mouse extends EventEmitter {
 			y: 0,
 		}
 
-		window.addEventListener('mousemove', e => {
+		window.addEventListener('pointermove', e => {
 			const x = (e.clientX / this.experience.sizes.width) * 2 - 1
 			const y = (e.clientY / this.experience.sizes.height) * 2 - 1
 

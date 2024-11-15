@@ -45,6 +45,7 @@ export class Camera extends EventEmitter {
 		this.controls.enableDamping = true
 		this.controls.zoomSpeed = 0.5
 		this.controls.enableZoom = true
+		this.controls.enabled = false
 	}
 
 	resize() {

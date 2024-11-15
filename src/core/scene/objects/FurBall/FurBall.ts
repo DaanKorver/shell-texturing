@@ -34,10 +34,10 @@ export default class FurBall {
 		this.position = new Vector3(0, 0, 0)
 		this.viewport = this.experience.viewport
 
-		this.shells = 68
+		this.shells = 64
 
 		this.uniforms = {
-			uDistance: new Uniform(0.004),
+			uDistance: new Uniform(0.01),
 			uShells: new Uniform(this.shells),
 			uColor: new Uniform(new Color('#e9d0f2')),
 			uDirection: new Uniform(new Vector3(0, 0, 0)),

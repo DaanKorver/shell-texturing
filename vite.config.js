@@ -15,5 +15,6 @@ export default {
       '@objects': resolve(__dirname, './src/core/scene/objects'),
       '@util': resolve(__dirname, './src/core/util'),
     }
-  }
+  },
+  base: '/shell-texturing'
 }
