@@ -1,5 +1,5 @@
 import { Mesh, Scene } from 'three'
-import ShellGrass from '@scene/objects/ShellGrass/ShellGrass'
+// import ShellGrass from '@scene/objects/ShellGrass/ShellGrass'
 import Experience from '@core/Experience'
 import FurBall from '@scene/objects/FurBall/FurBall'
 
@@ -14,7 +14,7 @@ export default class MainScene {
 
 		this.meshes = []
 
-		const grass = new ShellGrass()
+		// const grass = new ShellGrass()
 		// this.meshes.push(grass.mesh)
 
 		const ball = new FurBall()
